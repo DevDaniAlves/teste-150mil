@@ -2,7 +2,7 @@
   "development": {
     "username": "postgres",
     "password": "gWKbaPzMMalfTpvg7KxG",
-    "database": "postgres",
+    "database": "teste",
     "host": "containers-us-west-66.railway.app",
     "dialect": "postgres",
     "port": 6970
@@ -10,7 +10,7 @@
   "test": {
     "username": "postgres",
     "password": "gWKbaPzMMalfTpvg7KxG",
-    "database": "postgres_test",
+    "database": "teste_test",
     "host": "containers-us-west-66.railway.app",
     "dialect": "postgres",
     "port": 6970
@@ -18,7 +18,7 @@
   "production": {
     "username": "postgres",
     "password": "gWKbaPzMMalfTpvg7KxG",
-    "database": "poostgres_production",
+    "database": "teste_production",
     "host": "containers-us-west-66.railway.app",
     "dialect": "postgres",
     "port": 6970
