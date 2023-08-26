@@ -11,7 +11,7 @@ class AnimalModel extends Model {
                     autoIncrement: true,
                 },
                 nome: DataTypes.STRING,
-                qauntidade: DataTypes.INTEGER,
+                quantidade: DataTypes.INTEGER,
             },
             {
                 sequelize,
