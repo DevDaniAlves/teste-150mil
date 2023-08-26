@@ -10,6 +10,7 @@ module.exports = {
             },
             nome_pasto: Sequelize.STRING,
             capacidade: Sequelize.INTEGER,
+            quantidade: Sequelize.INTEGER,
             createdAt: Sequelize.DATE,
             updatedAt: Sequelize.DATE,
         });

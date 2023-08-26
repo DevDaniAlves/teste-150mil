@@ -12,6 +12,7 @@ class PastoModel extends Model {
                 },
                 nome_pasto: DataTypes.STRING,
                 capacidade: DataTypes.INTEGER,
+                quantidade: DataTypes.INTEGER,
             },
             {
                 sequelize,
