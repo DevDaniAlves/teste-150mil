@@ -40,7 +40,8 @@ routes.delete('/animal/:id', async (req, res) => {
                 error: 'Animal não foi econtrada!'
             });
         }
-        await AnimalModel.destroy({ where: { id } });
+        id_animal = id
+        await AnimalModel.destroy({ where: { id_animal } });
         return res.status(200).json({
             message: 'Animal removidao com sucesso!'
         });
